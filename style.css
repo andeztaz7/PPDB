@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.depan{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Kampus-3-Bag-2.jpg);
+    background-color: lightgray;
+    padding: 230px;
+    text-align: center;
+    font-family: 'Prata', serif;
+    color: #F2F3F4;
+}
+.nav {
+    background-color: goldenrod;
+    overflow: hidden;
+  }
+  
+ 
+.nav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav a:hover {
+    background-color: #ddd;
+    color: yellow;
+}
+.nav a.active {
+    color: white;
+}
+.profil{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-left: 120px;
+    margin-bottom: 0%;
+}
+.kelas{
+    min-width: 30%;
+    text-align: center;
+    line-height: 35px;
+    padding: 70px;
+}
+
+.formulir{
+    margin: 100px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.all{
+    background-color: #F2F3F4;
+}
+.registrasi{
+
+    margin: 120px;
+    text-align: center;
+}
